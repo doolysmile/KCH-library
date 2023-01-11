@@ -1,0 +1,9 @@
+spring:
+  profiles:
+    active: local
+  datasource:
+    driver-class-name: org.mariadb.jdbc.Driver
+logging:
+  level:
+    com.example.app: debug
+    org.hibernate.type.descriptor.sql: trace

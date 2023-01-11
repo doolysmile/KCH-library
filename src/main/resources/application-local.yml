@@ -1,0 +1,9 @@
+spring:
+  datasource:
+#    각 환경에 맞는 디비 생성 후 사용
+    url: jdbc:mariadb://127.0.0.1:3306/kchlibaray_loacl?useUnicode=true&characterEncoding=utf8&autoReconnect=true&serverTimezone=Asia/Seoul
+    username: root
+    password: rlaclgns5628
+  jpa:
+    hibernate:
+      ddl-auto: create
