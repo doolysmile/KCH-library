@@ -45,4 +45,10 @@ class BasicRepositoryTest {
         Basic findBasic = basicRepository.findByName("testName").get();
         Assertions.assertEquals("testName", findBasic.getName());
     }
+
+    @Test
+    @DisplayName("Update")
+    public void updateBasic(){
+        
+    }
 }
